@@ -1,6 +1,15 @@
 body {
     font-family: "Roboto", sans-serif;
     color: var(--black-color);
+    max-width: 1600px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 :root {
@@ -26,7 +35,7 @@ ul {
 }
 
 .container {
-    width: 1200px;
+    max-width: 1200px;
     margin: auto;
 }
 
@@ -106,9 +115,10 @@ header a:focus {
 /* main */
 
 .slider {
-    background-color: #2f303a;
+    background: rgba(47, 48, 58, 0.4);
+    background-image: url(/goit-markup-hw-04/images/background-image.jpg);
     height: 600px;
-    width: 100%;
+    max-width: 1600px;
     padding-top: 200px;
 }
 
@@ -121,11 +131,11 @@ header a:focus {
     font-weight: 900;
     font-size: 44px;
     text-align: center;
-    margin: auto;
     width: 696px;
     height: 120px;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    margin: auto;
 }
 
 .button-solution {
