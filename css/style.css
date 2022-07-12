@@ -188,6 +188,7 @@ header a:focus {
     letter-spacing: var(--letter-spacing);
     text-align: center;
     line-height: 1.17;
+    padding-bottom: 50px;
 }
 
 .work {
