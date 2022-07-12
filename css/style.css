@@ -276,6 +276,7 @@ address {
     letter-spacing: var(--letter-spacing);
     font-style: normal;
     padding-bottom: 9px;
+    padding-top: 20px;
 }
 
 .main-address a {
