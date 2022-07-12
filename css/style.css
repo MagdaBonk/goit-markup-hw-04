@@ -202,6 +202,7 @@ header a:focus {
 
 .team {
     background-color: #f5f4fa;
+    padding-top: 94px;
 }
 
 .team-title {
@@ -211,6 +212,7 @@ header a:focus {
     text-align: center;
     line-height: 1.17;
     margin-top: 0;
+    padding-bottom: 50px;
 }
 
 .team-figures {
