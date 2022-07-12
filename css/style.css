@@ -142,17 +142,23 @@ header a:focus {
     width: 200px;
     height: 50px;
     border: none;
-    background-color: var(--accent-color);
+    background-color: #f5f4fa;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
     text-align: center;
     letter-spacing: 0.06em;
     cursor: pointer;
-    color: var(--white-color);
+    color: var(--black-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     margin-top: 30px;
+}
+
+.button-solution:hover,
+.button-solution:focus {
+    background-color: var(--accent-color);
+    color: var(--white-color);
 }
 
 .advantages {
