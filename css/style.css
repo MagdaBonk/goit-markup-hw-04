@@ -22,6 +22,7 @@ body {
     --main-font-size: 14px;
     --letter-spacing: 0.03em;
     --letter-spacing-big: 0.06em;
+    --background-of-elements: #f5f4fa;
 }
 
 ul {
@@ -148,7 +149,7 @@ header a:focus {
     width: 200px;
     height: 50px;
     border: none;
-    background-color: #f5f4fa;
+    background-color: var(--background-of-elements);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
@@ -170,6 +171,17 @@ header a:focus {
 .advantages {
     list-style-type: none;
     display: flex;
+}
+
+.advantages-svg {
+    display: flex;
+    width: 270px;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    background: var(--background-of-elements);
+    border-radius: 4px;
+    margin-bottom: 30px;
 }
 
 .advantages-title {
