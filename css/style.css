@@ -112,9 +112,9 @@ header a:focus {
     line-height: 1.71;
 }
 
-.mail-svg {
-    width: 12px;
-    height: 16px;
+.mail-svg,
+.tel-svg {
+    fill: var(--descriptions-color);
 }
 
 /* main */
