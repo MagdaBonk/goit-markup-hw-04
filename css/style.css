@@ -81,9 +81,9 @@ header {
     height: 80px;
 }
 
-header a:hover,
-header a:focus {
-    color: #2196f3;
+header svg {
+    fill: var(--descriptions-color);
+    margin-right: 10px;
 }
 
 .navigation-menu {
@@ -91,6 +91,14 @@ header a:focus {
     display: flex;
     justify-content: space-between;
     width: 254px;
+}
+
+.navigation-menu a:hover,
+.navigation-menu a:focus,
+.contacts-links:hover,
+.contacts-links:focus {
+    color: var(--accent-color);
+    fill: var(--accent-color);
 }
 
 .navigation-menu a {
@@ -111,12 +119,6 @@ header a:focus {
     font-weight: 500;
     color: var(--descriptions-color);
     line-height: 1.71;
-}
-
-.mail-svg,
-.tel-svg {
-    fill: var(--descriptions-color);
-    margin-right: 10px;
 }
 
 /* main */
@@ -171,6 +173,10 @@ header a:focus {
 .advantages {
     list-style-type: none;
     display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .advantages-svg {
