@@ -112,6 +112,11 @@ header a:focus {
     line-height: 1.71;
 }
 
+.mail-svg {
+    width: 12px;
+    height: 16px;
+}
+
 /* main */
 
 .slider {
