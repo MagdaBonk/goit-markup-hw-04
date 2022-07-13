@@ -82,7 +82,6 @@ header {
 }
 
 header svg {
-    fill: var(--descriptions-color);
     margin-right: 10px;
 }
 
@@ -96,7 +95,8 @@ header svg {
 .navigation-menu a:hover,
 .navigation-menu a:focus,
 .contacts-links:hover,
-.contacts-links:focus {
+.contacts-links:focus,
+.contacts-links svg:focus {
     color: var(--accent-color);
     fill: var(--accent-color);
 }
@@ -114,11 +114,12 @@ header svg {
     gap: 50px;
 }
 
-.contacts a {
+.contacts-links {
     text-decoration: none;
     font-weight: 500;
     color: var(--descriptions-color);
     line-height: 1.71;
+    fill: var(--descriptions-color);
 }
 
 /* main */
