@@ -373,13 +373,14 @@ address {
 }
 
 .main-address a {
-    display: block;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
     font-style: normal;
     letter-spacing: var(--letter-spacing);
     font-size: var(--main-font-size);
     padding-bottom: 9px;
+    display: flex;
+    flex-direction: column;
 }
 
 .main-address-link:hover,
