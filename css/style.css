@@ -25,9 +25,10 @@ body {
     --background-of-elements: #f5f4fa;
 }
 
-ul {
+.list {
     padding: 0;
     margin: 0;
+    list-style: none;
 }
 
 .section {
@@ -77,10 +78,6 @@ header {
     color: var(--black-color);
 }
 
-header {
-    height: 80px;
-}
-
 header svg {
     margin-right: 10px;
 }
@@ -90,15 +87,6 @@ header svg {
     display: flex;
     justify-content: space-between;
     width: 254px;
-}
-
-.navigation-menu a:hover,
-.navigation-menu a:focus,
-.contacts-links:hover,
-.contacts-links:focus,
-.contacts-links svg:focus {
-    color: var(--accent-color);
-    fill: var(--accent-color);
 }
 
 .navigation-menu a {
@@ -120,6 +108,15 @@ header svg {
     color: var(--descriptions-color);
     line-height: 1.71;
     fill: var(--descriptions-color);
+}
+
+.navigation-menu a:hover,
+.navigation-menu a:focus,
+.contacts-links:hover,
+.contacts-links:focus,
+.contacts-links svg:focus {
+    color: var(--accent-color);
+    fill: var(--accent-color);
 }
 
 /* main */
@@ -247,26 +244,17 @@ header svg {
 }
 
 .team-figures {
-    list-style-type: none;
     display: inline-flex;
     gap: 30px;
 }
 
 .team-card {
     width: 270px;
-    height: 368px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     background-color: var(--white-color);
     margin: 0;
-}
-
-.team-card-description {
-    font-size: 16px;
-    text-align: center;
-    letter-spacing: var(--letter-spacing);
-    color: var(--descriptions-color);
 }
 
 .team-card-title {
@@ -276,6 +264,41 @@ header svg {
     letter-spacing: var(--letter-spacing);
     padding-top: 30px;
     padding-bottom: 10px;
+}
+
+.team-card-description {
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: var(--letter-spacing);
+    color: var(--descriptions-color);
+}
+
+.team-socialmedia {
+    margin-top: 25px;
+    padding-bottom: 35px;
+}
+
+.socialmedia-links {
+    display: flex;
+    justify-content: center;
+}
+
+.socialmedia-link {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    cursor: pointer;
+    fill: #afb1b8;
+}
+
+.socialmedia-link:hover,
+.socialmedia-link:focus {
+    fill: var(--white-color);
+    background-color: var(--accent-color);
 }
 
 /* footer */
