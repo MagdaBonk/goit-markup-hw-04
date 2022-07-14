@@ -301,6 +301,37 @@ header svg {
     background-color: var(--accent-color);
 }
 
+.customers-title {
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: var(--letter-spacing);
+    text-align: center;
+    line-height: 1.17;
+    padding-bottom: 50px;
+}
+
+.customer-works {
+    display: flex;
+    gap: 30px;
+}
+
+.customer-work {
+    width: 170px;
+    height: 92px;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    fill: #afb1b8;
+}
+
+.customer-work:hover {
+    fill: var(--accent-color);
+    border-color: var(--accent-color);
+}
+
 /* footer */
 
 footer {
