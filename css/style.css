@@ -25,7 +25,7 @@ body {
     --background-of-elements: #f5f4fa;
 }
 
-.list {
+.ul {
     padding: 0;
     margin: 0;
     list-style: none;
@@ -170,7 +170,6 @@ header svg {
 .advantages {
     list-style-type: none;
     display: flex;
-    justify-content: space-around;
     gap: 30px;
     padding-left: 15px;
     padding-right: 15px;
@@ -245,6 +244,7 @@ header svg {
 .team-figures {
     display: inline-flex;
     gap: 30px;
+    list-style-type: none;
 }
 
 .team-card {
