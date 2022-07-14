@@ -113,8 +113,7 @@ header svg {
 .navigation-menu a:hover,
 .navigation-menu a:focus,
 .contacts-links:hover,
-.contacts-links:focus,
-.contacts-links svg:focus {
+.contacts-links:focus {
     color: var(--accent-color);
     fill: var(--accent-color);
 }
