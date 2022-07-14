@@ -345,6 +345,8 @@ footer {
 
 .footer-adress {
     padding-top: 60px;
+    display: flex;
+    flex-direction: column;
 }
 
 #main-page2 a {
