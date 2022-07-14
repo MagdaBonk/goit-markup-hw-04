@@ -420,8 +420,8 @@ address {
     background: rgba(255, 255, 255, 0.1);
 }
 
-.footer-socialmedia:hover,
-.footer-socialmedia:focus {
+.footer-socialmedia-link:hover,
+.footer-socialmedia-link:focus {
     fill: var(--white-color);
     background-color: var(--accent-color);
 }
