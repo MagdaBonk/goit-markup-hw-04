@@ -383,8 +383,8 @@ address {
     flex-direction: column;
 }
 
-.main-address-link:hover,
-.main-address-link:focus {
+.main-address a:hover,
+.main-address a:focus {
     color: #2196f3;
 }
 
@@ -418,8 +418,8 @@ address {
     background: rgba(255, 255, 255, 0.1);
 }
 
-.footer-socialmedia-link:hover,
-.footer-socialmedia-link:focus {
+.footer-socialmedia:hover,
+.footer-socialmedia:focus {
     fill: var(--white-color);
     background-color: var(--accent-color);
 }
