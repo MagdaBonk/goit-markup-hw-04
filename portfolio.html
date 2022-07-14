@@ -29,7 +29,7 @@
                             >
                         </h2>
                         <nav>
-                            <ul class="navigation-menu">
+                            <ul class="list navigation-menu">
                                 <li><a href="#">Agencja</a></li>
                                 <li>
                                     <a href="portfolio.html">Portfolio</a>
@@ -40,11 +40,27 @@
                     </div>
                     <ul class="contacts">
                         <li>
-                            <a href="mailto:info@devstudio.com"
-                                >info@devstudio.com</a
+                            <a
+                                class="contacts-links"
+                                href="mailto:info@devstudio.com"
+                                ><svg width="16" height="12">
+                                    <use
+                                        href="images/icons.svg#icon-mail"
+                                    ></use>
+                                </svg>
+                                info@devstudio.com</a
                             >
                         </li>
-                        <li><a href="tel:+48111111111">+48111111111</a></li>
+                        <li>
+                            <a class="contacts-links" href="tel:+48111111111"
+                                ><svg width="10" height="16">
+                                    <use
+                                        href="images/icons.svg#icon-smartphone"
+                                    ></use>
+                                </svg>
+                                +48111111111</a
+                            >
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -265,23 +281,59 @@
         <footer>
             <div class="container">
                 <div class="main-footer">
-                    <h2 id="main-page2">
-                        <a href="/goit-markup-hw-02/index.html"
-                            ><span class="web2">Web</span
-                            ><span class="studio2">Studio</span></a
-                        >
-                    </h2>
-                    <address>m. Warszawa, Aleje Jerozolimskie 21</address>
-                    <div class="main-address">
-                        <a
-                            class="main-address-link"
-                            href="mailto:info@devstudio.com"
-                            >info@devstudio.com</a
-                        >
+                    <div class="footer-adress">
+                        <h2 id="main-page2">
+                            <a href="index.html"
+                                ><span class="web2">Web</span
+                                ><span class="studio2">Studio</span></a
+                            >
+                        </h2>
+                        <address>m. Warszawa, Aleje Jerozolimskie 21</address>
+                        <div class="main-address">
+                            <a
+                                class="main-address-link"
+                                href="mailto:info@devstudio.com"
+                            >
+                                info@devstudio.com</a
+                            >
 
-                        <a class="main-address-link" href="tel:+48111111111"
-                            >+48111111111</a
-                        >
+                            <a class="main-address-link" href="tel:+48111111111"
+                                >+48111111111</a
+                            >
+                        </div>
+                    </div>
+                    <div class="footer-socialmedia">
+                        <p class="footer-socialmedia-header">dołącz do nas</p>
+                        <ul class="list footer-socialmedia-links">
+                            <li class="footer-socialmedia-link">
+                                <svg width="20" height="20">
+                                    <use
+                                        href="/goit-markup-hw-04/images/icons.svg#icon-instagram"
+                                    ></use>
+                                </svg>
+                            </li>
+                            <li class="footer-socialmedia-link">
+                                <svg width="20" height="20">
+                                    <use
+                                        href="/goit-markup-hw-04/images/icons.svg#icon-twitter"
+                                    ></use>
+                                </svg>
+                            </li>
+                            <li class="footer-socialmedia-link">
+                                <svg width="20" height="20">
+                                    <use
+                                        href="/goit-markup-hw-04/images/icons.svg#icon-facebook"
+                                    ></use>
+                                </svg>
+                            </li>
+                            <li class="footer-socialmedia-link">
+                                <svg width="20" height="20">
+                                    <use
+                                        href="/goit-markup-hw-04/images/icons.svg#icon-linkedin"
+                                    ></use>
+                                </svg>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
