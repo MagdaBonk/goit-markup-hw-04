@@ -1,7 +1,6 @@
 body {
     font-family: "Roboto", sans-serif;
     color: var(--black-color);
-    max-width: 1600px;
 }
 
 *,
@@ -124,7 +123,6 @@ header svg {
     background: rgba(47, 48, 58, 0.4);
     background-image: url(/goit-markup-hw-04/images/background-image.jpg);
     height: 600px;
-    max-width: 1600px;
     padding-top: 200px;
 }
 
@@ -148,23 +146,17 @@ header svg {
     width: 200px;
     height: 50px;
     border: none;
-    background-color: var(--background-of-elements);
+    background-color: var(--accent-color);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
     text-align: center;
     letter-spacing: 0.06em;
     cursor: pointer;
-    color: var(--black-color);
+    color: var(--white-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     margin-top: 30px;
-}
-
-.button-solution:hover,
-.button-solution:focus {
-    background-color: var(--accent-color);
-    color: var(--white-color);
 }
 
 .advantages {
