@@ -121,7 +121,12 @@ header svg {
 
 .slider {
     background: rgba(47, 48, 58, 0.4);
-    background-image: url(/goit-markup-hw-04/images/background-image.jpg);
+    background-image: linear-gradient(
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)
+        ),
+        url(/goit-markup-hw-04/images/background-image.jpg);
+    background-repeat: no-repeat;
     height: 600px;
     padding-top: 200px;
 }
